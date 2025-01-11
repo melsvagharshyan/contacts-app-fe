@@ -14,7 +14,7 @@ const Avatar: React.FC<AvatarProps> = ({ avatarUrl, size = '40', className = '' 
     <img
       src={avatarUrl ? avatarUrl : defaultAvatarUrl}
       alt="User Avatar"
-      className={clsx('rounded-2xl object-cover', sizeClass, className)}
+      className={clsx('rounded-2xl object-cover w-40 h-40', sizeClass, className)}
     />
   );
 };
