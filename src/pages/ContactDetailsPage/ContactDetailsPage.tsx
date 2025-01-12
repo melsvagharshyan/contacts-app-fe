@@ -5,11 +5,11 @@ import { deleteContact, getAllContacts } from '../../api/contacts.api';
 import { TErrorResponse } from '../../api/types';
 import Avatar from '../../components/Avatar/Avatar';
 import Button from '../../components/Button/Button';
-import DeleteModal from '../../components/modals/DeleteModal';
 import showToast from '../../helpers/toastHelper';
 import { ToastType } from '../../types/toast.types';
 import { TGetContactsResponse } from '../../types/contacts.types';
 import { IoIosStarOutline } from 'react-icons/io';
+import DeleteModal from '../../components/Modals/DeleteModal';
 
 export const ContactDetailsPage = () => {
   const [isModalOpen, setModalOpen] = useState(false);

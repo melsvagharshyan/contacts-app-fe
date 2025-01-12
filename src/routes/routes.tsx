@@ -2,7 +2,7 @@ import { createRootRoute, createRoute } from '@tanstack/react-router';
 import Layout from '../components/Layout/Layout';
 import { CreateContactPage } from '../pages/CreateContactPage/index';
 import { ContactDetailsPage } from '../pages/ContactDetailsPage/index';
-import { EditContactPage } from '../pages/EditContactPage/EditContactPage';
+import { EditContactPage } from '../pages/EditContactPage/index';
 
 const rootRoute = createRootRoute({
   component: Layout,
